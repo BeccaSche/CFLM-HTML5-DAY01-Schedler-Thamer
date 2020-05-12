@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title> Intermediate Exercise: Form</title>
+</head>
+<body>
+
+<h1> Colour study! </h1>
+
+
+  <form action="dosomething.php">
+    First name:<br>
+    <input type="text" name="firstname" placeholder="First name"><br>
+    Last name:<br>
+    <input type="text" name="lastname"  placeholder="Family Name"><br/>
+    <br/>
+
+    Select gender: <br/>
+    <input type="radio" name="gender" value="male"> Male <br/>
+    <input type="radio" name="gender" value="female" checked> Female <br/>
+    <input type="radio" name="gender" value="other"> Other <br/>
+    <br/>
+    
+    Select your favorite colour: <br/>
+   <select name="colour">                                      
+      <option value="blue">blue</option>
+      <option value="green" selected>green</option>
+      <option value="red">red</option>
+      <option value="yellow">yellow</option>
+      <option value="brown">brown</option>
+      <option value="magenta">magenta</option>
+    </select>
+
+    <br/><br/>
+    Why is it your favorite colour? <br/>
+    <textarea name="message" rows="10" cols="30"> eg. Green is my favo because it reminds me of nature and peace..
+    </textarea>
+    <br/>
+    <br/>
+    <input type="submit" value="Submit your data">
+  </form>
+</body>
+</html>
